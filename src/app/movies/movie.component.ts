@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
-import { IProduct } from './product';
+import { IProduct } from './movie';
 //import { runInThisContext } from 'vm';
-import { ProductService } from './product.service';
+import { ProductService } from './movie.service';
 
 @Component({
     selector: 'pm-products',
-    templateUrl: './product.component.html'
+    templateUrl: './movie.component.html'
 })
-export class ProductListComponent{
-    pageTitle: string = "Acme Product Management";
+export class MovieListComponent{
+    pageTitle: string = "Movie List";
     imageWidth: number = 50;
     imageMargin: number = 5;
     showImage: boolean = true;
