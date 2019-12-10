@@ -4,14 +4,16 @@
     <h3>TV Shows</h3>
   </div>
   <div class="card-body">
-    <!--card body-->
+    <a [routerLink] = "['/tv shows']" class="nav-link"><img src="" class="img-responsive center-block">tv image should go here</a>
   </div>
 </div>
+
+
 <div class="card" style="width: 50%; display: inline-block">
   <div class="card-header">
     <h3>Movies</h3>
   </div>
   <div class="card-body">
-    <!--card body-->
+    <a [routerLink] = "['/movies']" class="nav-link"><img src= "https://image.tmdb.org/t/p/w500{{products.results[0].poster_path}}" class="img-responsive center-block" style="max-height:300px;padding-bottom:50px"></a>
   </div>
 </div>

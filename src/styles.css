@@ -1,12 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+* {box-sizing: unset;}
+li {list-style: none;}
 
 div.card-header {
  font-size: large;
 }
 
 div.card {
-  margin-top: 10px
+  /*margin-top: 10px;*/
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  overflow: scroll;
 }
 
 .table {

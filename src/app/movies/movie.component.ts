@@ -28,7 +28,7 @@ export class MovieListComponent{
         })
       }
 
-      toggleImage(): void {
+      /*toggleImage(): void {
         this.showImage = !this.showImage;
       }
 
@@ -45,8 +45,8 @@ export class MovieListComponent{
       performFilter(filterBy: string): IProduct[]
       {
           filterBy = filterBy.toLowerCase();
-          return this.products.filter(( product => product.productName.toLowerCase().indexOf(filterBy)!==-1));
-      }
+          return this.products.filter(( product => product.original_title.toLowerCase().indexOf(filterBy)!==-1));
+      }*/
 
       gotClicked(message: string):void{
         this.pageTitle = message;
